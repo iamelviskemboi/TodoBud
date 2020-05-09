@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/static/bud/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/static/bud/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/templates/base/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todobud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todobud/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todobud/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todobud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todobud/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bud/templates/base/base.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bud/static/bud/css/styles.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1bZffbBo3HxCs7eK3MBRW1Radz9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bud/static/bud" />
+      <recent name="$PROJECT_DIR$/bud" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/todobud" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="" />
+      <created>1588844640832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588844640832</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="317" width="330" height="290" key="#Other_File_Types" timestamp="1588955884142">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="656" y="317" width="330" height="290" key="#Other_File_Types/52.27.1548.873@52.27.1548.873" timestamp="1588955884142" />
+    <state x="284" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588951776145">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="284" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.27.1548.873@52.27.1548.873" timestamp="1588951776145" />
+    <state x="609" y="171" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588951740909">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="609" y="171" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/52.27.1548.873@52.27.1548.873" timestamp="1588951740909" />
+    <state x="315" y="98" key="SettingsEditor" timestamp="1588957314966">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="315" y="98" key="SettingsEditor/52.27.1548.873@52.27.1548.873" timestamp="1588957314966" />
+    <state x="616" y="324" width="400" height="275" key="scopes" timestamp="1588949240224">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="616" y="324" width="400" height="275" key="scopes/52.27.1548.873@52.27.1548.873" timestamp="1588949240224" />
+    <state x="489" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1588965105424">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="489" y="214" width="672" height="678" key="search.everywhere.popup/52.27.1548.873@52.27.1548.873" timestamp="1588965105424" />
+  </component>
+</project>
