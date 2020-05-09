@@ -1,0 +1,46 @@
+{% extends 'base/base.html' %}
+{% block title %}home{% endblock %}
+{% block content %}
+<div class="wrapper">
+  <div class="header bg-darkdanger">
+    <h1>ToDo Bud</h1>
+  </div>
+  <div class="content bg-darkdanger">
+    <form action="{% url 'insert' %}" autocomplete="off" class="frm" method="POST">
+      {% csrf_token %}
+      <input type="text" class="frm-ctrl bg-light clr-dark" name="content">
+        <button type="submit" class="btn clr-dark bg-light">
+          <i>&plus;</i>
+        </button>
+    </form>
+
+  </div>
+  <div class="footer">
+    <footer class="ftr bg-darkdanger">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://linkedin.com/in/iamelviskemboi" target="_blank" class="social-list__link">
+            <i class="fab fa-linkedin fa-1x">&Star;</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/iamelviskemboi" target="_blank" class="social-list__link">
+            <i class="fab fa-github fa-1x">&Star;</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.upwork.com/o/profiles/users/~0123018a658592f44b/" target="_blank"
+            class="social-list__link">
+            <i class="iconify" data-icon="simple-icons:upwork" data-inline="true">&Star;</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://instagram.com/iamelviskemboi" target="_blank" class="social-list__link">
+            <i class="fab fa-instagram fa-1x">&Star;</i>
+          </a>
+        </li>
+      </ul>
+  </footer>
+  </div>
+</div>
+{% endblock %}
