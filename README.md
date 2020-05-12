@@ -1,4 +1,4 @@
-# TodoBud
+# TodoBud&checkmark;
 
 This is a handy task management web app for browsers.
 
@@ -6,13 +6,14 @@ This is a handy task management web app for browsers.
 
 Download and install a web browser. (Preferably [Google Chrome](https://google.com/chrome/)). 
 This process might vary depending on your computer's Operating System.
+
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-```
+````
 
 ## Usage
- Just visit [todo-bud](https://todo-bud.herokuapp.com) to use TodoBud.
+ Just visit [todo-bud](https://todo-bud.herokuapp.com) to use TodoBud&checkmark;.
 
 ```bash
 google-chrome todo-bud.herokuapp.com
