@@ -1,46 +1,48 @@
 {% extends 'base/base.html' %}
 {% block title %}home{% endblock %}
 {% block content %}
-<div class="wrapper">
-  <div class="header bg-darkdanger">
-    <h1>ToDo Bud</h1>
-  </div>
-  <div class="content bg-darkdanger">
-    <form action="{% url 'insert' %}" autocomplete="off" class="frm" method="POST">
-      {% csrf_token %}
-      <input type="text" class="frm-ctrl bg-light clr-dark" name="content">
-        <button type="submit" class="btn clr-dark bg-light">
-          <i>&plus;</i>
-        </button>
-    </form>
-
-  </div>
-  <div class="footer">
-    <footer class="ftr bg-darkdanger">
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a href="https://linkedin.com/in/iamelviskemboi" target="_blank" class="social-list__link">
-            <i class="fab fa-linkedin fa-1x">&Star;</i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a href="https://github.com/iamelviskemboi" target="_blank" class="social-list__link">
-            <i class="fab fa-github fa-1x">&Star;</i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a href="https://www.upwork.com/o/profiles/users/~0123018a658592f44b/" target="_blank"
-            class="social-list__link">
-            <i class="iconify" data-icon="simple-icons:upwork" data-inline="true">&Star;</i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a href="https://instagram.com/iamelviskemboi" target="_blank" class="social-list__link">
-            <i class="fab fa-instagram fa-1x">&Star;</i>
-          </a>
-        </li>
-      </ul>
-  </footer>
+<div class="container spc-down">
+  <div class="row mt-5">
+    <div class="col-md-8 offset-md-2">
+      <div class="card bg-warning">
+        <div class="card-header shadow-sm bg-dark text-center">
+          <h1 class="display-5 task-title text-warning"><a href="/">TodoBud&checkmark;</a></h1>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <ul class="list-group">
+              <li class="list-group-item bg-dark text-light">
+                <form action="{% url 'insert' %}" autocomplete="off" class="frm" method="post">
+                  {% csrf_token %}
+                  <div class="input-group">
+                    <input type="text" class="form-control task-title bg-light clr-dark" name="content"
+                           placeholder="Do sth...">
+                    <button type="submit" class="btn btn-warning bg-warning">
+                      <i class="text-dark">&plus;</i>
+                    </button>
+                  </div>
+                </form>
+              </li>
+              {% for task in tasks %}
+              <li class="list-group-item bg-light text-dark">
+                <span class="todo-bullet">&oast; <span class="text-dark task-content">{{ task.content }}</span></span>
+                <form action="{% url 'delete' task.id %}" method="post" class="float-right d-inline">
+                  {% csrf_token %}
+                  <button type="submit" class="btn btn-dark bg-dark">
+                    <i class="text-light float-right">&checkmark;</i>
+                  </button>
+                </form>
+              </li>
+              {% empty %}
+              <li class="list-group-item bg-danger text-light text-center">
+                <span class="font-bold">NO TASKS?</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}

@@ -15,141 +15,33 @@ html{
   font-family: var(--ff-primary);
 }
 
-body{
-  background-color: var(--clr-totaldarkness);
-  color: var(--clr-light);
-  scroll-behavior: smooth;
-}
-
-/* CUSTOM CLASSES */
-
-/* grid */
-.wrapper{
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 20% 50% 30%;
-  margin: 10% 30% auto 30%;
-}
-
-
-@media screen and (max-width: 600px){
-.wrapper{
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 20% 50% 30%;
-  margin: 0 auto;
-  width: 100%;
-}
-}
-
-.header{
-  grid-column: span 12;
-  text-align: center;
-  text-decoration: underline;
-}
-
-.content{
-  grid-column: span 12;
-  text-align: center;
-}
-
-.footer{
-  grid-column: span 12;
-  text-align: justify;
-}
-
-/* colors */
-.bg-light{
-  background-color: var(--clr-light);
-}
-
-.bg-dark{
-  background-color: var(--clr-dark);
-}
-
-.bg-danger{
-  background-color: var(--clr-danger);
-}
-
-.bg-darkdanger{
-  background-color: var(--clr-darkdanger);
-}
-
-.clr-light{
-  color: var(--clr-light);
-}
-
-.clr-dark{
-  color: var(--clr-dark);
-}
-
-.clr-danger{
-  color: var(--clr-danger);
-}
-
-.clr-darkdanger{
-  color: var(--clr-darkdanger);
-}
-
-/* buttons */
-.btn{
-  cursor: pointer;
-  font-size: 23px;
-  font-weight: bold;
-  border-radius: 5px;
-  border-color: var(--clr-danger);
-}
-
-/* forms */
-.frm{
-  margin: 2em;
-}
-
-.frm-ctrl{
-  border-radius: 5px;
-  font-family: var(--ff-primary);
-  font-weight: bold;
-  font-size: 20px;
-  height: 2.3rem;
-  width: 20em;
-}
-
-@media screen and (max-width: 600px){
-.frm-ctrl{
-  border-radius: 5px;
-  font-family: var(--ff-primary);
-  font-weight: bold;
-  font-size: 20px;
-  height: 2.3rem;
-  width: 15rem;
-}
-}
-
-/* footer */
-.ftr{
-  font-weight: bold;
-  margin-bottom: 0px;
-  padding: 2.5em 0;
-  text-align: center;
-}
-
-.ftr a{
-  color: var(--clr-light);
+h1 a{
+  color: #ffc107;
   text-decoration: none;
 }
 
-.social-list{
-  color: var(--clr-light);
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
+h1 a:hover,
+h1 a:focus{
+  transform: scale(1.2);
+  color: #f5eeeed4;
+  text-decoration: none;
 }
 
-.social-list__item{
-  margin: 0 .5em;
+/* CUSTOM CLASSES */
+.spc-down{
+  margin-bottom: 1rem;
 }
 
-.social-list__link{
-  padding: .5em;
+.todo-bullet{
+  font-size: 1.4em;
+  color: #ff0018;
+}
+
+.task-title,
+.task-content{
+  font-family: var(--ff-primary);
+}
+
+.task-content{
+  font-size: 1em;
 }

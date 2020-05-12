@@ -1,16 +1,22 @@
 <component name="ProjectDictionaryState">
   <dictionary name="iamelviskemboi">
     <words>
+      <w>asgiref</w>
       <w>darkdanger</w>
+      <w>disp</w>
       <w>endblock</w>
+      <w>endfor</w>
       <w>ffffff</w>
       <w>iamelviskemboi</w>
+      <w>jumbotron</w>
       <w>kemboi</w>
       <w>lato</w>
       <w>lightdanger</w>
       <w>neue</w>
       <w>pitchblack</w>
       <w>postgresql</w>
+      <w>pytz</w>
+      <w>sqlparse</w>
       <w>todobud</w>
       <w>totaldarkness</w>
     </words>
