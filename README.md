@@ -1,6 +1,6 @@
 # TodoBud
 
-This is a handy task management web app for your browser.
+This is a handy task management web app for browsers.
 
 ## Installation
 
