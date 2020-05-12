@@ -16,7 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todobud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todobud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todobud/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/todobud/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/templates/base/base.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/bud/static/bud/css/styles.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1bZffbBo3HxCs7eK3MBRW1Radz9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -97,6 +100,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
@@ -106,6 +111,10 @@
       <screen x="52" y="27" width="1548" height="873" />
     </state>
     <state x="54" y="29" width="1543" height="871" key="#HTML/52.27.1548.873@52.27.1548.873" timestamp="1589036829457" />
+    <state x="455" y="145" width="732" height="635" key="#Inspections" timestamp="1589306885285">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="455" y="145" width="732" height="635" key="#Inspections/52.27.1548.873@52.27.1548.873" timestamp="1589306885285" />
     <state x="704" y="332" width="233" height="261" key="#Notifications" timestamp="1589032581200">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
@@ -122,18 +131,18 @@
       <screen x="52" y="27" width="1548" height="873" />
     </state>
     <state x="609" y="171" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/52.27.1548.873@52.27.1548.873" timestamp="1588951740909" />
-    <state x="315" y="98" key="SettingsEditor" timestamp="1588957314966">
+    <state x="315" y="98" key="SettingsEditor" timestamp="1589305762103">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state x="315" y="98" key="SettingsEditor/52.27.1548.873@52.27.1548.873" timestamp="1588957314966" />
+    <state x="315" y="98" key="SettingsEditor/52.27.1548.873@52.27.1548.873" timestamp="1589305762103" />
     <state x="426" y="115" width="800" height="554" key="Vcs.Push.Dialog.v2" timestamp="1589032678734">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
     <state x="426" y="115" width="800" height="554" key="Vcs.Push.Dialog.v2/52.27.1548.873@52.27.1548.873" timestamp="1589032678734" />
-    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589032450773">
+    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589305798009">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.1548.873@52.27.1548.873" timestamp="1589032450773" />
+    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.1548.873@52.27.1548.873" timestamp="1589305798009" />
     <state x="616" y="324" width="400" height="275" key="scopes" timestamp="1588949240224">
       <screen x="52" y="27" width="1548" height="873" />
     </state>

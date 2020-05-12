@@ -2,4 +2,4 @@
 *.bak
 
 # Database
-*.SQLite3
+*.sqlite3
