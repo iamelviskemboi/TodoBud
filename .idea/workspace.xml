@@ -16,19 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/bud/migrations/0002_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bud/migrations/0003_delete_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bud/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/static/bud/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bud/static/bud/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/templates/base/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bud/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bud/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todobud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todobud/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
