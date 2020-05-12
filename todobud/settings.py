@@ -123,7 +123,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Other directories to search for static files when collectstatic is run.
-STATICFILES_DIRS = ('/bud/bud/static/',)
+STATICFILES_DIRS = ('/static/',)
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
