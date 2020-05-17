@@ -16,9 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,10 +135,10 @@
       <screen x="52" y="27" width="1548" height="873" />
     </state>
     <state x="426" y="115" width="800" height="554" key="Vcs.Push.Dialog.v2/52.27.1548.873@52.27.1548.873" timestamp="1589032678734" />
-    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589305798009">
+    <state x="601" y="378" width="449" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589314145727">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state x="601" y="378" width="439" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.1548.873@52.27.1548.873" timestamp="1589305798009" />
+    <state x="601" y="378" width="449" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.1548.873@52.27.1548.873" timestamp="1589314145727" />
     <state x="616" y="324" width="400" height="275" key="scopes" timestamp="1588949240224">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
