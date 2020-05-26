@@ -4,4 +4,4 @@
 # Database
 venv/
 __pycache__/
-*.sqlite
+*.sqlite3
