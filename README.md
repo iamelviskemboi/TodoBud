@@ -21,10 +21,15 @@ google-chrome todo-bud.herokuapp.com
 
 ## Roadmap
 
-Coming soon!
-* Dynamic date right below the logo.
+__Coming soon!__
+* Timezone-specific date & time right below the logo.
 * A drag|rearrange functionality.
-* User login auth|sessions.
+* ~~Dynamic date right below the logo.~~
+* ~~User login auth|sessions.~~
+* Activate the settings page.~~
+* Landing page.
+* Blog.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
