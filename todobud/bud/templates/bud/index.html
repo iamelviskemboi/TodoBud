@@ -1,0 +1,96 @@
+{% extends 'base/base.html' %}{% load tz %}
+{% block title %}home{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-md-8 offset-md-2">
+      <div class="card bg-warning">
+        <div class="card-header shadow-sm bg-dark">
+          <div class="row">
+            <div class="col md-4 spcRR-up">
+              <div class="float-left">
+                <img src="{{ user.profile.dp.url }}" class="dpp" alt="{{ user.username }}">
+              </div>
+            </div>
+            <div class="col md-4">
+              <h1 class="display-5 text-center task-title text-warning">
+                <a href="{% url 'home' %}" class="text-nanum">TodoBud<i class="fa fa-clipboard-check"></i></a>
+              </h1>
+              <div class="text-center">
+                <code class="text-light"><i class="fa fa-clock"></i>{{ value|localtime }}</code>
+              </div>
+            </div>
+            <div class="col md-4 spcRL-up">
+              <li class="dropdown nav-link float-right">
+                <a class="spcRA-up" href="{% url 'home' %}"
+                   id="authAccountDropDown"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="float-left text-neue text-light">
+                    <i class="fa fa-at" style="height:.5rem !important;"></i><span
+                   class="text-4-5"><b>{{ user.username }}&nbsp;</b></span>
+                  </span>
+                  <i class="fa fa-chevron-circle-down"></i>
+                </a>
+                <div class="dropdown-menu bg-warning text-6" aria-labelledby="authAccountDropDown">
+                  <a class="dropdown-item text-dark bg-warning font-weight-bold"
+                     href="{% url 'profile' username=user.username %}">
+                    MyProfile</a>
+                  {% if user.is_staff %}
+                  <a class="dropdown-item text-dark bg-warning font-weight-bold" href="{% url 'home' %}">Dashboard</a>
+                  {% endif %}
+                  <a class="dropdown-item text-dark bg-warning font-weight-bold"
+                     href="{% url 'settings' user.username %}">
+                    Settings</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-dark bg-warning font-weight-bold" href="{% url 'logout' %}">Logout</a>
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <ul class="list-group">
+              <li class="list-group-item bg-dark text-light">
+                <form action="" autocomplete="off" class="frm" method="post">{% csrf_token %}
+                  <div class="input-group">
+                    <input type="text" class="text-neue font-weight-normal text-4 form-control"
+                           placeholder="Do something {{ user.first_name }}..."
+                           name="title" maxlength="100" required id="id_title">
+                    <button type="submit" class="btn btn-warning bg-warning">
+                      <i class="fa fa-plus"></i>
+                    </button>
+                  </div>
+                </form>
+              </li>
+              {% for task in tasks %}
+              {% if not task.is_complete %}
+              <li class="list-group-item clr-lightR text-dark">
+                <span><i class="fa fa-dot-circle text-dark" style="height:1.3rem;width:1.3rem;"></i>
+                  <span class="text-dark text-4 text-nanum task-content font-weight-normal">{{ task }}</span>
+                </span>
+                <form action="{% url 'delete' task.id %}" method="post" class="float-right d-inline">{% csrf_token %}
+                  <button type="submit" class="btn btn-dark bg-dark">
+                    <span class="text-light float-right fa fa-check fa-1x"></span>
+                  </button>
+                </form>
+              </li>
+              {% endif %}
+              {% empty %}
+              <li class="list-group-item bg-danger text-light text-center">
+                <span class="font-bold">NO TASKS?</span>
+              </li>
+              {% endfor %}
+              {% if done and not undone %}
+              <li class="list-group-item bg-danger text-light text-center">
+                <span class="text-nanum text-3 font-weight-bold">No Tasks?</span>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

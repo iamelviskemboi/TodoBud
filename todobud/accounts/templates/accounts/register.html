@@ -1,0 +1,53 @@
+{% extends 'base/base.html' %}{% load static %}
+{% block title %}Sign Up{% endblock %}
+{% block xtralinks %}
+<link rel="stylesheet" href="{% static 'accounts/css/signin.css' %}">{% endblock %}
+{% block content %}
+<div class="mt-4">
+  <form action="{% url 'register' %}" method="post" class="form-signin bg-dark text-light brd">{% csrf_token %}
+    <div class="text-center mb-4">
+      <h1 class="text-1 task-title text-warning own">
+        <a href="{% url 'home' %}" class="text-nanum">TodoBud<i class="fa fa-clipboard-check"></i></a>
+      </h1>
+      <h1 class="font-weight-normal text-center text-quicksand text-2 clr-light scRU-right spc-down">
+        Sign Up
+      </h1>
+      {% if form.errors %}
+      <div class="bg-danger text-light alert">
+        <button class="close" type="button" data-dismiss="alert">
+          <span aria-hidden="true"><i class="fa fa-times-circle"></i></span>
+        </button>{{ form.errors }}
+      </div>
+      {% endif %}
+    </div>
+    <div class="spcR-down text-neue">
+      {{ form.first_name }}
+    </div>
+    <div class="spcR-down text-neue">
+      {{ form.last_name }}
+    </div>
+    <div class="spcR-down text-neue">
+      {{ form.username }}
+    </div>
+    <div class="spcR-down text-neue">
+      {{ form.email }}
+    </div>
+    <div class="spcR-down text-neue">
+      {{ form.password1 }}
+    </div>
+    <div class="text-neue">
+      {{ form.password2 }}
+    </div>
+    <div class="spc-up">
+      <button type="submit" class="btn btn-block btn-outline-warning">REGISTER</button>
+    </div>
+    <div>
+      <div class="row space-up spc-down">
+        <div class="col 12 text-center">
+          <a href="{% url 'login' %}" class="text-link text-nanum text-5">Already have an account?</a>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}

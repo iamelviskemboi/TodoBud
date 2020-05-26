@@ -1,0 +1,33 @@
+{% extends 'base/base.html' %}{% load static %}
+{% block title %}Settings{% endblock %}
+{% block xtralinks %}
+<link rel="stylesheet" href="{% static 'accounts/css/signin.css' %}">{% endblock %}
+{% block content %}
+<div class="mt-4">
+  <div class="form-signin brd space-down">
+    <div class="text-center mb-4">
+      <h1 class="text-1 task-title text-warning own"><a href="{% url 'home' %}" class="text-nanum l">TodoBud<i
+       class="fa fa-clipboard-check"></i></a></h1>
+      <h1 class="font-weight-normal text-center text-quicksand text-2 clr-light spc-down spcRU-left">
+        Account Settings <br>
+        <i class="text-white text-1 fa fa-user-edit"></i>
+      </h1>
+      <hr>
+      <p class="lead text-center text-3 text-neue clr-light">
+        Settings goes here.. <br><br> Soon, you'll be able to customize your profile <i
+       class="text-white text-5 fa fa-plus"></i> more!
+      </p>
+      <hr>
+      <a href="{% url 'home' %}">
+        <button class="btn btn-sm btn-block b btn-outline-warning"><i class="fa fa-long-arrow-alt-left"></i></button>
+      </a>
+    </div>
+    <!--<a href="{% url 'home' %}"><button class="text-center btn btn-block btn-outline-warning">Submit</button></a>-->
+    <div class="row spc-up">
+      <div class="col md-12 text-center">
+        <i class="text-white text-1 fa fa-hand-peace"></i>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'base/base.html' %}{% load static %}
+{% block title %}Login{% endblock %}
+{% block xtralinks %}
+<link rel="stylesheet" href="{% static 'accounts/css/signin.css' %}">{% endblock %}
+{% block content %}
+<div class="mt-4">
+  <form method="post" action="{% url 'login' %}" class="form-signin bg-dark text-light brd">{% csrf_token %}
+    <div class="text-center mb-4">
+      <h1 class="text-1 task-title text-warning own"><a href="{% url 'home' %}" class="text-nanum l">TodoBud<i
+       class="fa fa-clipboard-check"></i></a></h1>
+      <h1 class="font-weight-normal text-center text-quicksand text-2 clr-light spc-down spcRI-right">
+        Sign In
+      </h1>
+    </div>
+
+    {% for msg in messages %}
+    <div class="alert text-center text-neue text-4 bg-danger">
+      <p id="messages" class="spc-upR">{{ msg }}</p>
+    </div>
+    {% endfor %}
+
+    <div class="spc-down text-neue">
+      <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
+    </div>
+    <div class="text-neue">
+      <input type="password" name="password" class="form-control" placeholder="Password" required>
+    </div>
+
+    <div class="mb-3 spc-up space-left">
+      <input class="checkbox" type="checkbox" value="remember-me" checked>
+      <span class="clr-brightlight text-nanum text-4"> Remember me</span>
+    </div>
+    <button class="btn btn-block btn-outline-warning text-nanum text-4" type="submit">LOGIN</button>
+    <input type="hidden" name="next" value="{{ next }}">
+    <div class="row space-up spc-down">
+      <div class="col 6">
+        <a href="{% url 'reset_password' %}" class="text-link text-nanum text-5 float-left">Forgot
+          password?</a>
+      </div>
+      <div class="col 6">
+        <a href="{% url 'register' %}" class="text-link text-nanum text-5 float-right">Create an account</a>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
