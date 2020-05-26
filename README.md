@@ -4,7 +4,7 @@ This is a handy task management web app for browsers.
 
 ## Installation
 
-Download and install a web browser. (Preferably [Google Chrome](https://google.com/chrome/)). 
+Download and install a web browser. Preferably [Google Chrome](https://google.com/chrome/). 
 This process might vary depending on your computer's Operating System.
 
 ```bash
@@ -26,7 +26,7 @@ __Coming soon!__
 * A drag|rearrange functionality.
 * ~~Dynamic date right below the logo.~~
 * ~~User login auth|sessions.~~
-* Activate the settings page.~~
+* Activate the settings page.
 * Landing page.
 * Blog.
 
