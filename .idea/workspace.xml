@@ -16,7 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +56,9 @@
       <recent name="$PROJECT_DIR$/todobud/media/placeholders/usr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/todobud/bud/templates/bud" />
       <recent name="$PROJECT_DIR$/todobud/staticfiles/bud" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/todobud" />
       <recent name="$PROJECT_DIR$/do" />
     </key>

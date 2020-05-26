@@ -1,1 +1,1 @@
-web: gunicorn todobud/todobud.wsgi --log-file -
+web: gunicorn todobud.wsgi --log-file -
