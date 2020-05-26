@@ -24,7 +24,7 @@ google-chrome todo-bud.herokuapp.com
 __Coming soon!__
 * Timezone-specific date & time right below the logo.
 * A drag|rearrange functionality.
-* ~~Dynamic date right below the logo.~~
+* Dynamic date right below the logo.
 * ~~User login auth|sessions.~~
 * Activate the settings page.
 * Landing page.
