@@ -8,7 +8,7 @@
 /* CUSTOM PROPERTIES*/
 :root{
   --ff-primary: 'Comic Neue';
-  --ff-tertiary: 'Nanum Gothic', 'Comic Neue', 'Helvetica';
+  --ff-tertiary: 'Nanum Gothic', 'Comic Neue';
 
   --fs-biggest: 3rem;
   --fs-bigR: 2.3rem;
@@ -509,5 +509,5 @@ a:hover{
  * BUTTONS
  */
 button:hover{
-  color: #5c9bd6 !important;
+  color: #212529 !important;
 }

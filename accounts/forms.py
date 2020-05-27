@@ -2,6 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
+from .models import Profile
 
 # SIGN UP FORM
 class RegistrationForm(UserCreationForm):
@@ -33,3 +34,11 @@ class RegistrationForm(UserCreationForm):
             'password1',
             'password2',
         ]
+
+
+# PROFILE EDIT FORM -> DISPLAY PICTURE
+class PhotoEditForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['dp']
+        exclude = ('user',)

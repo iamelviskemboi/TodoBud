@@ -4,7 +4,7 @@ from django.contrib.auth.views import login_required
 from django.contrib import messages
 
 from .models import (Profile)
-from .forms import (RegistrationForm)
+from .forms import (RegistrationForm, PhotoEditForm)
 
 
 # ACCOUNTS -> SIGN IN
@@ -55,4 +55,14 @@ def register(request):
 # ACCOUNTS -> SETTINGS
 @login_required
 def settings(request, username):
-    return render(request, 'accounts/settings.html')
+    usr_profile = request.user.profile
+    form = PhotoEditForm(instance=usr_profile)
+    if request.method == 'POST':
+        form = PhotoEditForm(request.POST, request.FILES, instance=usr_profile)
+        if form.is_valid():
+            form.save()
+            return redirect('profile', username=request.user.username)
+    else:
+        form = PhotoEditForm()
+    context = {'form': form}
+    return render(request, 'accounts/settings.html', context)
