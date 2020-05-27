@@ -15,6 +15,14 @@
         <i class="text-warning text-1 fa fa-user-edit"></i>
       </h1>
       <hr>
+      {% if form.dp.errors %}
+      <div class="bg-danger text-light alert">
+        <button class="close" type="button" data-dismiss="alert">
+          <span aria-hidden="true"><i class="fa fa-times-circle"></i></span>
+        </button>
+        {{ form.dp.errors }}
+      </div>
+      {% endif %}
       <label class="text-light text-4 text-neue font-weight-bold" for="dp">Display Picture</label>
       <div class="col md-12 text-center">
         <div class="text-center spcR-down">

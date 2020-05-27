@@ -36,7 +36,7 @@
                      href="{% url 'profile' username=user.username %}">
                     MyProfile</a>
                   {% if user.is_staff %}
-                  <a class="dropdown-item text-dark bg-warning font-weight-bold" href="{% url 'home' %}">Dashboard</a>
+                  <a class="dropdown-item text-dark bg-warning font-weight-bold" href="admin/">Dashboard</a>
                   {% endif %}
                   <a class="dropdown-item text-dark bg-warning font-weight-bold"
                      href="{% url 'settings' user.username %}">
