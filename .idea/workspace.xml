@@ -16,7 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6238b88-d3e8-4211-be16-2135b444b8cc" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/templates/feedback/feedback_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bud/templates/feedback/feedback_thanks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/iamelviskemboi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bud/templates/bud/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bud/templates/bud/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bud/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todobud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todobud/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/todobud/media/placeholders/usr" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -56,11 +67,11 @@
       <recent name="$PROJECT_DIR$/todobud/media/placeholders/usr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/staticfiles" />
+      <recent name="$PROJECT_DIR$/staticfiles/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/todobud" />
       <recent name="$PROJECT_DIR$/todobud/bud/templates/bud" />
-      <recent name="$PROJECT_DIR$/todobud/staticfiles/bud" />
-      <recent name="$PROJECT_DIR$/do" />
     </key>
   </component>
   <component name="SvnConfiguration">

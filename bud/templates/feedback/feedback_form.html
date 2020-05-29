@@ -1,0 +1,36 @@
+{% extends 'base/base.html' %}{% load static %}
+{% block title %}Feedback{% endblock %}
+{% block xtralinks %}
+<link rel="stylesheet" href="{% static 'accounts/css/signin.css' %}">{% endblock %}
+{% block content %}
+<div class="mt-4">
+  <div class="form-signin brd">
+    <div class="text-center mb-4">
+      <h1 class="text-1 task-title text-warning own"><a href="{% url 'home' %}" class="text-nanum l">TodoBud<i
+       class="fa fa-clipboard-check"></i></a></h1>
+      <h1 class="font-weight-normal text-center text-neue text-2 clr-light spc-down spcRU-left">
+        Feedback
+      </h1>
+      <h3 class="text-nanum text-warning text-2">Talk to us {{ user.first_name }}...</h3>
+      <form action="{% url 'feedback' %}" method="post">{% csrf_token %}
+        <textarea name="message" maxlength="404" required cols="30" rows="9" placeholder="What's on your mind?"
+                  class="form-control text-neue text-dark clr-wrn text-4">
+        </textarea>
+        <div class="spc-up">
+          <button class="text-center text-neue btn btn-block btn-outline-warning" type="submit">Submit</button>
+      </form>
+      <p class="lead text-center text-4 text-neue clr-light spc-up">
+        (We Value Your Feedback)
+        <i class="fa fa-smile fa-1x text-warning"></i>
+      </p>
+    </div>
+    <div class="row">
+      <div class="col md-12 text-center spc-up">
+        <a href="{% url 'home' %}">
+          <i class="fa fa-long-arrow-alt-left fa-3x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

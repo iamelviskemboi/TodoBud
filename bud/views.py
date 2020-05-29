@@ -1,5 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import (redirect, render)
+from django.core.mail import send_mail
+from django.conf import settings
 
 from .forms import TodoAddForm
 from .models import Task
@@ -42,3 +44,23 @@ def profile(request, username):
         return render(request, 'profile/profile_details.html')
     else:
         return redirect('home')
+
+
+# feedback
+@login_required
+def feedback(request):
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            message = request.POST['message']
+            user_mail = [request.user.email]
+            send_mail('TodoBud Feedback', message, settings.EMAIL_HOST_USER, user_mail, fail_silently=False)
+            redirect('thanks')
+        return render(request, 'feedback/feedback_form.html')
+    else:
+        return redirect('home')
+
+
+# feedback -> thanks
+@login_required
+def feedback_thanks(request):
+    return render(request, 'feedback/feedback_thanks.html')

@@ -14,7 +14,7 @@ SECRET_KEY = '$)(z1^tm)m7an+c(fk%uz@cw+g4z_%*$nbzv@nw&nc3ulvjn)*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['todo-bud.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['todo-bud.herokuapp.com', '127.0.0.1', 'localhost', '0.0.0.0']
 
 # Application definition
 
