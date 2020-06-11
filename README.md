@@ -1,6 +1,6 @@
 # TodoBud&checkmark;
 
-This is a handy task management web app. It allows you to keep track of scheduled tasks & check them when done right on your web browser.
+This is a handy task management web app. It allows you to keep tabs on scheduled tasks & check them when done right on your web browser.
 
 ## Installation
 
