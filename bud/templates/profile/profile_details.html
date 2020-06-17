@@ -20,7 +20,7 @@
         <h1 class="text-light text-1 text-center text-quicksand">
           {{ user.first_name }} {{ user.last_name }}
         </h1><br>
-        <img src="{{ user.profile.dp.url }}" class="dp" style="margin-left: 2.3rem;">
+        <img src="{{ request.user.profile.dp.url }}" class="dp" style="margin-left: 2.3rem;">
       </div>
     </div>
     <div class="col md-4"></div>
